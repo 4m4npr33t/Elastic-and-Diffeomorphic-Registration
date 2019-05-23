@@ -1,4 +1,4 @@
-function reg_img = d_deformation(i1, i2, sigma, lambda, n_iter, step_size)
+function reg_img = diffeomorphic_deformation(i1, i2, sigma, lambda, n_iter, step_size)
 
 %i1 = 255.*i1;
 %i2 = 255.*i2;
